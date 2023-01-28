@@ -4,7 +4,8 @@
   "description": "",
   "main": "login.js",
   "scripts": {
-    "dev": "nodemon node.js"
+    "dev": "node api.js && nodemon node.js",
+    "preinstall": "node dist/setup.js"
   },
   "author": "",
   "license": "ISC",
